@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tiltidem",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tilt timestamps and idem durations for scripts and CI receipts.",
+  "bin": {
+    "tiltidem": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tiltidem.git"
+  },
+  "homepage": "https://theworker02.github.io/tiltidem/",
+  "keywords": [
+    "tilt",
+    "idem",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
